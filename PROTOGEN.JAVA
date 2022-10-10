@@ -175,6 +175,8 @@ public class PROTOGEN {
 		return res;
 	}
 	
+	// EIGENVALUES!!!
+	
 	static double[] eigenvalues(double[][] mat) {
 	    double[][] a = mat.clone();
 	    if (a.length != a[0].length) return new double[a.length];
